@@ -11,9 +11,12 @@ they can be specifically targeted via call. We are given the
 historical marketing data of the insurance company and are
 required to build a ML model that will predict if a client will
 subscribe to the insurance.
+
 **Data**
 The historical sales data is available as a compressed file here.
+
 **Features:**
+
 ● age (numeric)
 ● job : type of job
 ● marital : marital status
@@ -25,10 +28,13 @@ The historical sales data is available as a compressed file here.
 ● num_calls: number of contacts performed during this
 campaign and for this client
 ● prev_outcome: outcome of the previous marketing
+
 campaign (categorical:
 "unknown","other","failure","success")
+
 Output variable (desired target):
 ● y - has the client subscribed to the insurance?
+
 **Minimum Requirements**
 It is not sufficient to just fit a model - the model must be
 analysed to find the important factors that contribute towards
